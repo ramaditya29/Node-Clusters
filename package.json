@@ -1,0 +1,21 @@
+{
+  "name": "node_cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "loadtest": "^8.0.7",
+    "pm2": "^5.3.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
